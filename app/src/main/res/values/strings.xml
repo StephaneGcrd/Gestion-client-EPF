@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">GestionClient</string>
+    <string-array name="levels">
+        <item>Débutant</item>
+        <item>Normal</item>
+        <item>Experimenté</item>
+    </string-array>
+
+</resources>
