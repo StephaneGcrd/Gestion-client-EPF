@@ -18,7 +18,7 @@
         </activity>
         <activity android:name=".AddClientActivity" />
         <activity android:name=".ListClientsFragment" />
-        <activity android:name=".DetailsClientActivity"></activity>
+        <activity android:name=".DetailsClientFragment"></activity>
     </application>
 
 </manifest>

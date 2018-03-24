@@ -1,15 +1,10 @@
 package fr.epf.gestionclient;
 
-import android.app.ListActivity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.PersistableBundle;
 import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
 import android.support.v4.app.ListFragment;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -35,7 +30,7 @@ public class ListClientsFragment extends ListFragment{
 
     @Override
     public void onListItemClick(ListView l, View v, int position, long id) {
-        Intent intent = new Intent(getActivity(), DetailsClientActivity.class);
+        Intent intent = new Intent(getActivity(), DetailsClientFragment.class);
         intent.putExtra(ID_CLIENT, position);
         startActivity(intent);
 
